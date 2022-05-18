@@ -5,6 +5,7 @@ import Navigation from "./routes/navigation/Navigation";
 import Homepage from "./routes/homepage/Homepage";
 import About from "./routes/about/About";
 import WebDeveloper from "./routes/webDeveloper/webDeveloper";
+import GraphicDesign from "./routes/graphicDesign/GraphicDesign";
 
 import "./App.css";
 
@@ -16,6 +17,7 @@ function App() {
       <Homepage />
       <About />
       <WebDeveloper />
+      <GraphicDesign />
     </Fragment>
   );
 }
