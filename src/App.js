@@ -9,6 +9,17 @@ import GraphicDesign from "./routes/graphicDesign/GraphicDesign";
 
 import "./App.css";
 
+/* <Fragment>
+      <GlobalStyles />
+      <Navigation />
+      <Homepage />
+      <About />
+      <WebDeveloper />
+      Web developers works component
+      <GraphicDesign />
+      graphic desing works component
+    </Fragment> */
+
 function App() {
   return (
     <Fragment>
