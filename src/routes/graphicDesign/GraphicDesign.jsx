@@ -1,4 +1,5 @@
 import IconListMarquee from "../../components/iconListComponent/IconListComponent";
+import SliderComponent from "../../components/sliderComponent/SliderComponent";
 import TextSkillComponent from "../../components/textSkillComponents/textSkillComponent";
 import logoDesign from "../../assets/logodesign.png";
 import Marquee from "react-fast-marquee";
@@ -63,17 +64,14 @@ const GraphicDesign = () => {
       <h2 className="text-8xl font-bold text-center md:text-left lg:text-left py-[50px] ml-16 leading-[4.5rem]">
         GRAPHIC <br /> DESIGNER
       </h2>
-      <div className="grid grid-cols-4 grid-rows-2 gap-5 w-10/12 mx-auto">
-        <div className="border-4  border-black grid col-start-1 col-end-4 ">
-          <Marquee
-            gradient={false}
-            speed={45}
-            className="row-start-1 row-end-4"
-          >
-            <IconListMarquee entry={DesingIconMarquee} />
-          </Marquee>
+      <div className="grid grid-cols-4 grid-rows-0 xl:grid-rows-2 gap-5 w-10/12 mx-auto">
+        <div className="md:border-2  lg:border-4 border-black col-start-1 col-end-4  ">
+          <SliderComponent entry={DesingIconMarquee} />
         </div>
-        <div className="border-4  border-black" alt="drawing">
+        <div
+          className="md:border-2  lg:border-4 aspect-square  border-black"
+          alt="drawing"
+        >
           <img src={logoDesign} alt="Drawing" />
         </div>
         <TextSkillComponent
