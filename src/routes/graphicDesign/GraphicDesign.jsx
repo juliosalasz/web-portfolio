@@ -1,8 +1,6 @@
-import IconListMarquee from "../../components/iconListComponent/IconListComponent";
-import SliderComponent from "../../components/sliderComponent/SliderComponent";
-import TextSkillComponent from "../../components/textSkillComponents/textSkillComponent";
-import logoDesign from "../../assets/logodesign.png";
-import Marquee from "react-fast-marquee";
+import useScreenType from "react-screentype-hook";
+import GraphicDesktop from "../../components/graphicDesignDesktop/GraphicDesignDesktop";
+import GraphicMobile from "../../components/graphicDesignMobile/GraphicDesignMobile";
 
 const DesingIconMarquee = [
   {
@@ -34,227 +32,51 @@ const DesingSkillText = [
   {
     id: "1a",
     title: "Brading",
-    text: " Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sdfjksdf jkeikf.",
+    text: "Logo design, merch design and setting brand style guidelines. All you need, to start your marketing strategies.",
   },
   {
     id: "2a",
     title: "ART",
-    text: " Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sdfjksdf jkeikf.",
+    text: "Nothing brings people like eye catching artwork. A key cornerstone in making you website and brand friendly to costumers.",
   },
   {
     id: "3a",
     title: "2D ANIMATION",
-    text: " Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sdfjksdf jkeikf.",
+    text: "Experienced in the creation of animation, skeletal rigging and hand made. Specially for video production.",
   },
   {
     id: "4a",
     title: "CREATIVE WRITING",
-    text: " Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sdfjksdf jkeikf.",
+    text: "In the need for a catchy slogan? A phrase loved by everyone will take your brand to the next level. ",
   },
 ];
 
 const GraphicDesign = () => {
-  // const listItem =
-  //   "grid justify-center w-9/12 mx-auto border-2 border-black mb-20";
-  // const imageSize = "w-44 md:w-20";
-  // const listItemIcon = "justify-center align-middle mx-auto";
-  // const listItemtext = "text-lg font-medium ";
+  const screenType = useScreenType({
+    mobile: 425,
+    tablet: 767,
+    desktop: 1024,
+    largeDesktop: 1440,
+  });
   return (
-    <div className="w-full py-20 md:pt-5 bg-[#FFD527] mx-auto px-0 md:px-5">
-      <h2 className="text-8xl font-bold text-center md:text-left lg:text-left py-[50px] ml-16 leading-[4.5rem]">
+    <div className="w-full py-5 md:py-20 md:pt-5 bg-[#FFD527] mx-auto px-0 md:px-5 relative">
+      <h2 className="text-5xl sm:text-6xl lg:text-8xl leading-2 md:leading-[3rem] lg:leading-[4.5rem] font-bold text-center md:text-left py-[50px] md:ml-16">
         GRAPHIC <br /> DESIGNER
       </h2>
-      <div className="grid grid-cols-4 grid-rows-0 xl:grid-rows-2 gap-5 w-10/12 mx-auto">
-        <div className="md:border-2  lg:border-4 border-black col-start-1 col-end-4  ">
-          <SliderComponent entry={DesingIconMarquee} />
-        </div>
-        <div
-          className="md:border-2  lg:border-4 aspect-square  border-black"
-          alt="drawing"
-        >
-          <img src={logoDesign} alt="Drawing" />
-        </div>
-        <TextSkillComponent
-          className="flex w-full col-start-1 col-end-5 my-0 gap-5"
-          entry={DesingSkillText}
+      <div className="w-full md:w-[365px] lg:w-[535px] h-[5px] bg-black absolute top-[155px] sm:top-[180px] md:top-[160px] lg:top-[210px] left-[0px] "></div>
+      {screenType.isMobile ? (
+        <GraphicMobile
+          DesingIconMarquee={DesingIconMarquee}
+          DesingSkillText={DesingSkillText}
         />
-      </div>
+      ) : (
+        <GraphicDesktop
+          DesingIconMarquee={DesingIconMarquee}
+          DesingSkillText={DesingSkillText}
+        />
+      )}
     </div>
   );
 };
 
 export default GraphicDesign;
-
-/* <div className="w-full pt-20 md:pt-5 bg-[#FFD527] mx-auto px-0 md:px-5 grid md:grid-cols-2">
-<div alt="text column" className="">
-  <div alt="title" className="py-3 relative">
-    <div className="w-screen lg:w-[400px] h-[5px] bg-black absolute bottom-[178px] block md:hidden"></div>
-    <h2 className="text-5xl md:text-6xl font-bold text-center md:text-left lg:text-left mb-20 md:mb-0">
-      GRAPHIC DESIGNER
-    </h2>
-  </div>
-  <div alt="icons-tablet-and-laptop" className="hidden md:block">
-    <ul className="grid md:grid-cols-4">
-      <li>
-        <img src={photoshop} alt="photoshop" class={imageSize} />
-      </li>
-      <li>
-        <img src={illustrator} alt="illustrator" class={imageSize} />
-      </li>
-      <li>
-        <img src={premiere} alt="premiere" class={imageSize} />
-      </li>
-      <li>
-        <img src={afterEffects} alt="after effects" class={imageSize} />
-      </li>
-    </ul>
-    <ul className="grid md:grid-cols-2">
-      <li className="p-1">
-        <h3 className={listItemtext}>BRANDING</h3>
-      </li>
-      <li className="p-1">
-        <h3 className={listItemtext}>ART</h3>
-      </li>
-      <li className="p-1">
-        <h3 className={listItemtext}>2D ANIMATION</h3>
-      </li>
-      <li className="p-1">
-        <h3 className={listItemtext}>CREATIVE WRITING</h3>
-      </li>
-    </ul>
-  </div>
-  <div alt="icons" className="block md:hidden">
-    <ul className="grid">
-      <li className={listItem}>
-        <ul className="grid  text-center">
-          <li className={listItemIcon}>
-            <img src={photoshop} alt="Photoshop" className={imageSize} />
-          </li>
-          <li>
-            <h2 className="text-3xl font-bold underline">PHOTOSHOP</h2>
-          </li>
-          <li>
-            <p className="text-xl">
-              For digital art, image editing and graphic desing overall.
-            </p>
-          </li>
-        </ul>
-      </li>
-      <li className={listItem}>
-        <ul className="grid  text-center">
-          <li className={listItemIcon}>
-            <img
-              src={illustrator}
-              alt="Illustrator"
-              className={imageSize}
-            />
-          </li>
-          <li>
-            <h2 className="text-3xl font-bold underline">Illustrator</h2>
-          </li>
-          <li>
-            <p className="text-xl">
-              For vector art, ux/ui desing and logo design.
-            </p>
-          </li>
-        </ul>
-      </li>
-      <li className={listItem}>
-        <ul className="grid  text-center">
-          <li className={listItemIcon}>
-            <img src={premiere} alt="Premiere" className={imageSize} />
-          </li>
-          <li>
-            <h2 className="text-3xl font-bold underline">PREMIERE</h2>
-          </li>
-          <li>
-            <p className="text-xl">Mainly for video and audio editing</p>
-          </li>
-        </ul>
-      </li>
-      <li className={listItem}>
-        <ul className="grid text-center">
-          <li className={listItemIcon}>
-            <img
-              src={afterEffects}
-              alt="After Effects"
-              className={imageSize}
-            />
-          </li>
-          <li>
-            <h2 className="text-3xl font-bold underline">
-              AFTER EFFECTS
-            </h2>
-          </li>
-          <li>
-            <p className="text-xl">
-              For video post-production, vfx and animation
-            </p>
-          </li>
-        </ul>
-      </li>
-      <li className={listItem}>
-        <ul className="grid text-center">
-          <li>
-            <h3 className="text-3xl font-bold underline">BRANDING</h3>
-          </li>
-          <li>
-            <p className="text-xl">
-              Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
-              sed diam nonummy nibh euismod tincidunt ut laoreet dolore
-              magna aliquam erat volutpat.
-            </p>
-          </li>
-        </ul>
-      </li>
-      <li className={listItem}>
-        <ul className="grid text-center">
-          <li>
-            <h3 className="text-3xl font-bold underline">ART</h3>
-          </li>
-          <li>
-            <p className="text-xl">
-              Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
-              sed diam nonummy nibh euismod tincidunt ut laoreet dolore
-              magna aliquam erat volutpat.
-            </p>
-          </li>
-        </ul>
-      </li>
-      <li className={listItem}>
-        <ul className="grid text-center">
-          <li>
-            <h3 className="text-3xl font-bold underline">2D ANIMATION</h3>
-          </li>
-          <li>
-            <p className="text-xl">
-              Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
-              sed diam nonummy nibh euismod tincidunt ut laoreet dolore
-              magna aliquam erat volutpat.
-            </p>
-          </li>
-        </ul>
-      </li>
-      <li className={listItem}>
-        <ul className="grid text-center">
-          <li>
-            <h3 className="text-3xl font-bold underline">
-              CREATIVE WRITING
-            </h3>
-          </li>
-          <li>
-            <p className="text-xl">
-              Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
-              sed diam nonummy nibh euismod tincidunt ut laoreet dolore
-              magna aliquam erat volutpat.
-            </p>
-          </li>
-        </ul>
-      </li>
-    </ul>
-  </div>
-</div>
-<div alt="drawing">
-  <img src={drawing} alt="Drawing" />
-</div>
-</div> */

@@ -15,7 +15,7 @@ const WebDeveloper = () => {
             <div className="w-screen text-3xl border-t-2 border-b-2 border-blue-200 p-3 font-bold">
               <Marquee gradient={false} speed={45}>
                 <p className=" ">
-                  BACKEND, MACHINE LEARNING, VR? CANT WAIT TO TELL YOU WHAT I
+                  BACKEND, MACHINE LEARNING, VR? CAN'T WAIT TO TELL YOU WHAT I
                   MIGHT LEARN TOMORROW. NO DREAM IS TOO BIG, NO CODE IS TOO
                   HARD, I WILL ALWAYS KEEP MAKING QUESTIONS AND NEVER STOP
                   LOOKING FOR ANSWERS.

@@ -9,7 +9,7 @@ const Homepage = () => {
   return (
     <Fragment>
       <div className="w-full h-full xl:h-screen bg-gradient-to-t from-[#000167] to-[#00339a] flex flex-col justify-between text-white">
-        <div className="grid md:grid-cols-2 max-w-[1240px] m-auto lg:pl-5">
+        <div className="grid md:grid-cols-2 mx-auto md:pl-10">
           <div className="flex flex-col justify-center md:items-start w-full px-2 py-8">
             <p className="text-2xt pt-20 md:pt-[70px] lg:pt-[120px] pl-1 text-lg md:text-xl lg:text-2xl xl:text-3xl font-light text-center md:text-left 	">
               HTML & CSS | JAVASCRIPT | REACT
@@ -36,7 +36,7 @@ const Homepage = () => {
               alt="Images of shapes"
             ></img>
           </div>
-          <div className="mt-[60px] hidden md:block">
+          <div className="md:mt-[90px] lg:mt-[100px] hidden md:block">
             <img src={face} alt="Drawing" />
           </div>
         </div>
