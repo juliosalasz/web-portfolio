@@ -6,19 +6,9 @@ import Homepage from "./routes/homepage/Homepage";
 import About from "./routes/about/About";
 import WebDeveloper from "./routes/webDeveloper/webDeveloper";
 import GraphicDesign from "./routes/graphicDesign/GraphicDesign";
+import Contact from "./routes/contact/Contact";
 
 import "./App.css";
-
-/* <Fragment>
-      <GlobalStyles />
-      <Navigation />
-      <Homepage />
-      <About />
-      <WebDeveloper />
-      Web developers works component
-      <GraphicDesign />
-      graphic desing works component
-    </Fragment> */
 
 function App() {
   return (
@@ -29,6 +19,7 @@ function App() {
       <About />
       <WebDeveloper />
       <GraphicDesign />
+      <Contact />
     </Fragment>
   );
 }
