@@ -7,7 +7,10 @@ const Contact = () => {
   const linkStyle =
     "text-gray-200 hover:underline text-xl md:text-4xl underline-offset-8 hover:no-underline font-light";
   return (
-    <div className="w-full h-screen flex  bg-black text-gray-200 justify-center ">
+    <div
+      className="w-full h-screen flex  bg-black text-gray-200 justify-center "
+      id="ContactMe"
+    >
       <div className=" flex flex-col justify-center my-10  ">
         <h2 className="text-4xl sm:text-5xl md:text-6xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600 mb-10 mx-auto">
           FIND ME AT:
