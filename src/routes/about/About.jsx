@@ -2,7 +2,7 @@ import profile from "../../assets/profilephoto.png";
 
 const About = () => {
   return (
-    <div className="w-full py-20 px-5 bg-[#F9F9F9]">
+    <div className="w-full py-20 px-5 bg-[#F9F9F9]" id="AboutMe">
       <div className="mx-auto grid md:grid-cols-2 ">
         <div className="mx-auto relative">
           <h2 className="py-3 text-6xl xl:text-6xl font-bold text-center lg:text-left leading-[3rem]">

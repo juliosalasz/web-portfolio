@@ -1,5 +1,6 @@
 import TextSkillComponent from "../textSkillComponents/textSkillComponent";
-import logoDesign from "../../assets/logodesign.png";
+import logoSquare from "../../assets/logoSquare.svg";
+
 const GraphicMobile = ({ DesingIconMarquee, DesingSkillText }) => {
   return (
     <div className="px-5 flex flex-col	">
@@ -24,7 +25,7 @@ const GraphicMobile = ({ DesingIconMarquee, DesingSkillText }) => {
         })}
       </div>
       <div className="border-2 mb-4 aspect-square  border-black" alt="drawing">
-        <img src={logoDesign} className="w-full" alt="Drawing" />
+        <img src={logoSquare} className="w-full" alt="Drawing" />
       </div>
       <TextSkillComponent className="flex" entry={DesingSkillText} />
     </div>

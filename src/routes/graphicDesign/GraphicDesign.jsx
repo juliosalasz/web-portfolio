@@ -59,7 +59,10 @@ const GraphicDesign = () => {
     largeDesktop: 1440,
   });
   return (
-    <div className="w-full py-5 md:py-20 md:pt-5 bg-[#FFD527] mx-auto px-0 md:px-5 relative">
+    <div
+      className="w-full py-5 md:py-20 md:pt-5 bg-[#FFD527] mx-auto px-0 md:px-5 relative"
+      id="GraphicDesigner"
+    >
       <h2 className="text-5xl sm:text-6xl lg:text-8xl leading-2 md:leading-[3rem] lg:leading-[4.5rem] font-bold text-center md:text-left py-[50px] md:ml-16">
         GRAPHIC <br /> DESIGNER
       </h2>

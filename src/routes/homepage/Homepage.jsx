@@ -1,5 +1,3 @@
-import { Fragment } from "react";
-
 import shapeImage from "../../assets/color-shapes.svg";
 import face from "../../assets/face.png";
 import facesm from "../../assets/facesm.png";
@@ -7,7 +5,7 @@ import GitHubIcon from "../../assets/githubIcon.png";
 
 const Homepage = () => {
   return (
-    <Fragment>
+    <div id="Home">
       <div className="w-full h-full xl:h-screen bg-gradient-to-t from-[#000167] to-[#00339a] flex flex-col justify-between text-white">
         <div className="grid md:grid-cols-2 mx-auto md:pl-10">
           <div className="flex flex-col justify-center md:items-start w-full px-2 py-8">
@@ -41,7 +39,7 @@ const Homepage = () => {
           </div>
         </div>
       </div>
-    </Fragment>
+    </div>
   );
 };
 

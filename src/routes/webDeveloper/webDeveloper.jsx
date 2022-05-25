@@ -4,7 +4,7 @@ const WebDeveloper = () => {
   const listItem =
     "text-4xl sm:text-5xl xl:text-6xl font-bold lg:hover:bg-black lg:hover:text-white text-center md:text-left";
   return (
-    <div className="w-full bg-[rgb(0,112,234)] text-blue-200   ">
+    <div className="w-full bg-[rgb(0,112,234)] text-blue-200" id="WebDeveloper">
       <div className="max-w-[1240px] mx-auto my-0 mp-0 grid md:grid-cols-2">
         <div className="md:hidden flex mt-20">
           <div className="m-auto relative">
