@@ -7,7 +7,7 @@ const Homepage = () => {
   return (
     <div id="Home">
       <div className="w-full  h-full xl:h-screen bg-gradient-to-t from-[#000167] to-[#00339a] flex flex-col justify-between text-white px-1 md:px-10">
-        <div className="grid md:grid-cols-2 mx-auto xl:w-[80%] xl:pt-10 ">
+        <div className="grid md:grid-cols-2 mx-auto xl:w-[80%] xl:pt-12 ">
           <div className="flex flex-col justify-center  md:items-start  w-full px-2 py-8 mx-auto">
             <p className="pt-20 xl:pt-10 md:pt-[70px] lg:pt-[120px] pl-1 text-lg md:text-xl lg:text-2xl xl:text-3xl font-light text-center md:text-left w-full">
               HTML & CSS | JAVASCRIPT | REACT
