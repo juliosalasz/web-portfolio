@@ -42,9 +42,9 @@ const WebDeveloper = () => {
             </ul>
           </div>
         </div>
-        <div className="pl-0 lg:pl-9 md:flex hidden ">
+        <div className="pl-0 lg:pl-9 md:flex hidden relative">
           <div className="m-auto relative">
-            <div className="hidden md:block md:w-[341px] lg:w-[437px] xl:w-[914px] h-[5px] bg-blue-200 absolute md:bottom-[180px] lg:bottom-[225px] xl:bottom-[270px] md:right-[-42px] lg:right-[-38px] xl:right-[-315px]"></div>
+            <div className="hidden md:block md:w-[341px] lg:w-[437px] xl:w-[600px] h-[5px] bg-blue-200 absolute md:bottom-[180px] lg:bottom-[225px] xl:bottom-[270px] md:right-[-42px] lg:right-[-38px] xl:right-[-0px]"></div>
             <h2 className="text-5xl sm:text-5xl lg:text-7xl xl:text-8xl font-bold md:pb-7">
               WEB <br /> DEVELOPER
             </h2>
