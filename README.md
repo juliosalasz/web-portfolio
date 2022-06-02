@@ -23,5 +23,7 @@ SWIPERJS
 REACT FAST MARQUEE
 
 ## To-do's and optimizations
-A new revision to clean up the use of Tailwind
-Missing adding a proyect display component
+A new revision to clean up the use of Tailwind.
+</br>
+Missing adding a proyect display component.
+</br>
