@@ -1,7 +1,9 @@
 
+<img src="https://github.com/juliosalasz/juliosalasz/blob/main/assets/portfolio%20gif.gif" alt="Portfolio" />
+
 # Web Designer Portfolio
 
-A quick portfolio created to help me display my skill and proyects.
+A quick portfolio created to help me display my skill and proyects. Uploades in Netlify
 
 ## Skills Used
 
