@@ -38,6 +38,7 @@ const WebDeveloper = () => {
               <li className={listItem}>JAVASCRIPT</li>
               <li className={listItem}>REACT</li>
               <li className={listItem}>TYPESCRIPT</li>
+              <li className={listItem}>ANGULARJS</li>
               <li className={listItem}>WORDPRESS</li>
             </ul>
           </div>

@@ -6,6 +6,7 @@ import Homepage from "./routes/homepage/Homepage";
 import About from "./routes/about/About";
 import WebDeveloper from "./routes/webDeveloper/webDeveloper";
 import GraphicDesign from "./routes/graphicDesign/GraphicDesign";
+import WebProjects from "./routes/webProjects/webProjects";
 import Contact from "./routes/contact/Contact";
 
 import "./App.css";
@@ -18,6 +19,7 @@ function App() {
       <Homepage />
       <About />
       <WebDeveloper />
+      <WebProjects />
       <GraphicDesign />
       <Contact />
     </Fragment>

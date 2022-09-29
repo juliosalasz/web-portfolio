@@ -1,0 +1,67 @@
+{
+  "folders": [
+    {
+      "path": "..\\..\\..\\..\\CodeWars"
+    },
+    {
+      "path": "..\\..\\..\\..\\imageUploadingServer"
+    },
+    {
+      "path": "..\\..\\..\\..\\imageUploadingServer2"
+    },
+    {
+      "path": "..\\..\\..\\..\\ecommerce-server"
+    },
+    {
+      "path": "..\\..\\..\\..\\ecommerce-client"
+    },
+    {
+      "path": "..\\..\\.."
+    },
+    {
+      "path": "..\\..\\..\\..\\html bootstrap test"
+    },
+    {
+      "path": "..\\..\\..\\..\\Frontend Mentor"
+    },
+    {
+      "path": "..\\..\\..\\..\\AngularProyect"
+    },
+    {
+      "path": "..\\..\\..\\..\\html css course"
+    },
+    {
+      "path": "..\\..\\..\\..\\typescript refresher"
+    },
+    {
+      "path": "..\\..\\..\\..\\angular proyect clipz"
+    },
+    {
+      "path": "..\\..\\..\\..\\rxjs-practice"
+    },
+    {
+      "path": "..\\..\\..\\..\\github ticket test"
+    },
+    {
+      "path": "..\\..\\..\\..\\..\\Typescript Practice"
+    },
+    {
+      "path": "..\\..\\..\\..\\rustFUNdamentals"
+    },
+    {
+      "path": "..\\..\\..\\..\\taskify"
+    },
+    {
+      "path": "..\\..\\..\\..\\ecommerce-client-v3"
+    },
+    {
+      "path": "..\\..\\..\\..\\rust-intermediate"
+    },
+    {
+      "path": "..\\..\\..\\..\\rust_image_proyect"
+    }
+  ],
+  "settings": {
+    "liveServer.settings.multiRootWorkspaceName": "Frontend Mentor"
+  }
+}
