@@ -59,9 +59,27 @@
     },
     {
       "path": "..\\..\\..\\..\\rust_image_proyect"
+    },
+    {
+      "path": "..\\..\\..\\..\\..\\CSGO API"
+    },
+    {
+      "path": "..\\..\\..\\..\\..\\..\\Trabajos\\New green coffee\\website"
+    },
+    {
+      "path": "..\\..\\..\\..\\..\\AnimTask\\anim-task-proyect"
+    },
+    {
+      "path": "..\\..\\..\\..\\..\\ToDoIt"
+    },
+    {
+      "path": "..\\..\\..\\..\\..\\AnimTask\\second-prot"
+    },
+    {
+      "path": "..\\..\\..\\..\\..\\AnimTask\\FirstProtoype"
     }
   ],
   "settings": {
-    "liveServer.settings.multiRootWorkspaceName": "Frontend Mentor"
+    "liveServer.settings.multiRootWorkspaceName": "website"
   }
 }

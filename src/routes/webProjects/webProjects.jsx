@@ -6,6 +6,39 @@ import clips from "../../assets/clips.jpg";
 
 import "./webProjects.css";
 
+import justDoIt from "../../assets/justDoIt.gif";
+import greenCoffee from "../../assets/greenCoffee.gif";
+import gorillaCoffee from "../../assets/gorillaCoffee.gif";
+
+const smallIdeas = [
+  {
+    title: "Just Do it",
+    secondTitle: "To do App with Login",
+    description:
+      "A to do app created using react. It uses google firebase to handle its own user login and can save to do's in local storage. It keep tracks if user is logged in and persists through session.",
+    img: "https://i.ibb.co/0qhMhW1/green.gif",
+    url: "https://delightful-twilight-2441a4.netlify.app/",
+    githubUrl: "https://github.com/juliosalasz/Just-Do-It",
+  },
+  {
+    title: "Green Coffee Gold Coffee",
+    secondTitle: "Producers Association",
+    description:
+      "Small landing page, created for a coffee producers association. The site can change between EN and ES versions",
+    img: "https://i.ibb.co/nzwmtVG/gorilla.gif",
+    url: "https://animated-lamington-52d0d2.netlify.app/en/index.html",
+    githubUrl: "https://github.com/juliosalasz/GreenGoldCoffee",
+  },
+  {
+    title: "Gorilla Coffee",
+    secondTitle: "Coffee Landing page",
+    description:
+      "Small proyect done over the weekend. Made by using bootstrap.",
+    img: "https://i.ibb.co/ZHQp46H/justdoit.gif",
+    url: "https://ornate-kleicha-a93961.netlify.app/",
+  },
+];
+
 const WebProjects = () => {
   function scaleHeader() {
     var scalable = document.querySelectorAll(".scale--js");
@@ -61,8 +94,8 @@ const WebProjects = () => {
         </div>
       </section>
       <section className="bg-[#02ffea] py-40">
-        <div class="scale__container--js">
-          <h2 class="scale--js font-black">ECOMMERCE SITE</h2>
+        <div className="scale__container--js">
+          <h2 className="scale--js font-black">ECOMMERCE SITE</h2>
         </div>
         <div className="w-full px-40 py-20 flex">
           <div className="w-[70%]">
@@ -77,7 +110,7 @@ const WebProjects = () => {
               hold items based on different categories of items and stock
               keeping units.
             </p>
-            <div class="inline-flex">
+            <div className="inline-flex">
               <a
                 href="https://techitout-v3.netlify.app/"
                 target="_blank"
@@ -101,8 +134,8 @@ const WebProjects = () => {
         </div>
       </section>
       <section className="bg-[#02ffea] pb-20">
-        <div class="scale__container--js">
-          <h2 class="scale--js font-black">UPLOADING CLIPS SITE</h2>
+        <div className="scale__container--js">
+          <h2 className="scale--js font-black">UPLOADING CLIPS SITE</h2>
         </div>
         <div className="w-full px-40 py-20 flex">
           <div className="w-[70%]">
@@ -117,7 +150,7 @@ const WebProjects = () => {
               and will be able to upload videos using drag and drop. It can take
               dynamic thumbnails and process videos using <b>FFMPEG</b>.
             </p>
-            <div class="inline-flex">
+            <div className="inline-flex">
               <a
                 href="https://clips-site-angular.vercel.app//"
                 target="_blank"
@@ -139,10 +172,44 @@ const WebProjects = () => {
             </div>
           </div>
         </div>
+        <section>
+          <h2 className="text-[13rem] font-black leading-[11rem] text-black">
+            SMALL PROYECTS - BIGGER IDEAS
+          </h2>
+          <ul className="grid grid-cols-3 py-40 px-14">
+            {smallIdeas.map((entry) => {
+              return (
+                <li key={entry.img}>
+                  <div>
+                    <img src={`${entry.img}`} alt={entry.title} />
+                  </div>
+                  <div className="py-6">
+                    <h2 className="text-2xl font-black">{entry.title}</h2>
+                    <h3 className="text-xl font-semibold pb-6">
+                      {entry.secondTitle}
+                    </h3>
+                    <p>{entry.description}</p>
+                  </div>
+                  <div>
+                    <a href={entry.url} target="_blank" rel="noreferrer">
+                      <button className="bg-black hover:bg-white text-white hover:text-black font-bold py-4 px-8 rounded-none border-r-2 border-[#02ffea]">
+                        See it live
+                      </button>
+                    </a>
+                    <a href={entry.githubUrl} target="_blank" rel="noreferrer">
+                      <button className="bg-black hover:bg-white text-white hover:text-black font-bold py-4 px-8 rounded-none">
+                        Github
+                      </button>
+                    </a>
+                  </div>
+                </li>
+              );
+            })}
+          </ul>
+        </section>
       </section>
     </Fragment>
   );
 };
 
-//
 export default WebProjects;
