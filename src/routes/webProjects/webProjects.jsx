@@ -6,10 +6,6 @@ import clips from "../../assets/clips.jpg";
 
 import "./webProjects.css";
 
-import justDoIt from "../../assets/justDoIt.gif";
-import greenCoffee from "../../assets/greenCoffee.gif";
-import gorillaCoffee from "../../assets/gorillaCoffee.gif";
-
 const smallIdeas = [
   {
     title: "Just Do it",
