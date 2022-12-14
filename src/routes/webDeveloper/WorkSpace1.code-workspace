@@ -34,9 +34,6 @@
       "path": "..\\..\\..\\..\\typescript refresher"
     },
     {
-      "path": "..\\..\\..\\..\\angular proyect clipz"
-    },
-    {
       "path": "..\\..\\..\\..\\rxjs-practice"
     },
     {
@@ -77,9 +74,18 @@
     },
     {
       "path": "..\\..\\..\\..\\..\\AnimTask\\FirstProtoype"
+    },
+    {
+      "path": "C:\\Users\\Julio\\Local Sites\\testwebsite\\app\\public\\wp-content\\themes\\fictional-tweny-theme"
+    },
+    {
+      "path": "..\\..\\..\\..\\..\\PHP Lavarel"
+    },
+    {
+      "path": "C:\\Users\\Julio\\Desktop\\landing-site3"
     }
   ],
   "settings": {
-    "liveServer.settings.multiRootWorkspaceName": "website"
+    "liveServer.settings.multiRootWorkspaceName": "landing-site3"
   }
 }

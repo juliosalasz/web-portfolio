@@ -12,7 +12,7 @@ const smallIdeas = [
     secondTitle: "To do App with Login",
     description:
       "A to do app created using react. It uses google firebase to handle its own user login and can save to do's in local storage. It keep tracks if user is logged in and persists through session.",
-    img: "https://i.ibb.co/0qhMhW1/green.gif",
+    img: "https://i.ibb.co/ZHQp46H/justdoit.gif",
     url: "https://delightful-twilight-2441a4.netlify.app/",
     githubUrl: "https://github.com/juliosalasz/Just-Do-It",
   },
@@ -21,7 +21,7 @@ const smallIdeas = [
     secondTitle: "Producers Association",
     description:
       "Small landing page, created for a coffee producers association. The site can change between EN and ES versions",
-    img: "https://i.ibb.co/nzwmtVG/gorilla.gif",
+    img: "https://i.ibb.co/0qhMhW1/green.gif",
     url: "https://animated-lamington-52d0d2.netlify.app/en/index.html",
     githubUrl: "https://github.com/juliosalasz/GreenGoldCoffee",
   },
@@ -30,7 +30,7 @@ const smallIdeas = [
     secondTitle: "Coffee Landing page",
     description:
       "Small proyect done over the weekend. Made by using bootstrap.",
-    img: "https://i.ibb.co/ZHQp46H/justdoit.gif",
+    img: "https://i.ibb.co/nzwmtVG/gorilla.gif",
     url: "https://ornate-kleicha-a93961.netlify.app/",
   },
 ];
