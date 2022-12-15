@@ -33,6 +33,14 @@ const smallIdeas = [
     img: "https://i.ibb.co/nzwmtVG/gorilla.gif",
     url: "https://ornate-kleicha-a93961.netlify.app/",
   },
+  {
+    title: "California Mountains",
+    secondTitle: "Tourism Landing site",
+    description:
+      "Landing site for a skying and climbing company. It uses bootstrap and has a responsive carousel and responsive tabs.",
+    img: "https://i.ibb.co/RC6qfSd/californiamountains.gif",
+    url: "https://jovial-chimera-346c90.netlify.app/",
+  },
 ];
 
 const WebProjects = () => {
