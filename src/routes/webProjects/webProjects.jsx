@@ -41,6 +41,14 @@ const smallIdeas = [
     img: "https://i.ibb.co/RC6qfSd/californiamountains.gif",
     url: "https://jovial-chimera-346c90.netlify.app/",
   },
+  {
+    title: "Image Effects",
+    secondTitle: "Turn your Png Image to grayscale",
+    description:
+      " Full stack web app. It takes an image and removes its color into a grayscale color palette. Uses a Rust backend and connects to the frontend by using webpack.",
+    img: "https://i.ibb.co/8dfb6hT/Imageeffects.gif",
+    url: "https://cheery-eclair-586c16.netlify.app/",
+  },
 ];
 
 const WebProjects = () => {
