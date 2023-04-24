@@ -34,12 +34,16 @@ const WebDeveloper = () => {
             <ul className="pt-8 ml-auto md:ml-6 ">
               <li className={listItem}>UI/UX</li>
               <li className={listItem}>HTML & CSS</li>
-              <li className={listItem}>TAILWIND</li>
+              <li className={listItem}>SQL</li>
               <li className={listItem}>JAVASCRIPT</li>
               <li className={listItem}>REACT</li>
+              <li className={listItem}>PYTHON</li>
+              <li className={listItem}>JAVA</li>
               <li className={listItem}>TYPESCRIPT</li>
+              <li className={listItem}>MONGODB</li>
               <li className={listItem}>ANGULARJS</li>
               <li className={listItem}>WORDPRESS</li>
+              <li className={listItem}>TAILWIND</li>
             </ul>
           </div>
         </div>

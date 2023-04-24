@@ -93,11 +93,11 @@ const WebProjects = () => {
   return (
     <div class="projects">
       <section className="w-full py-5 md:py-20 bg-black mx-auto px-0 md:px-5 relative">
-        <div className="my-0 py-[8rem] w-[80%] mx-auto">
-          <h2 className="text-white text-[13rem] font-black leading-[11rem]">
+        <div className="flex flex-col my-0 pt-[8rem] pb-[4rem] md:py-[8rem] w-[80%] mx-auto">
+          <h2 className="text-white text-5xl md:text-[13rem] font-black leading-8 md:leading-[11rem]">
             BIG <span className="text-[#02ffc0]">IDEAS</span>
           </h2>
-          <h2 className="text-white text-[11rem] leading-[12rem]  font-black">
+          <h2 className="text-white text-4xl md:text-[8rem] lg:text-[10rem] leading-10 md:leading-[7rem] lg:leading-[10rem] xl:leading-[12rem]  font-black">
             BIG <span className="text-[#ffbb02]">PROJECTS</span>
           </h2>
         </div>
@@ -109,11 +109,11 @@ const WebProjects = () => {
         <div className="scale__container--js">
           <h2 className="scale--js font-black">ECOMMERCE SITE</h2>
         </div>
-        <div className="w-full px-40 py-20 flex">
-          <div className="w-[70%]">
+        <div className="w-full px-5 md:px-40 py-5 md:py-20 flex flex-col md:flex-row items-center md:items-start">
+          <div className="w-full md:w-[70%]">
             <img src={techItOut} alt="" />
           </div>
-          <div className="pl-10 w-[30%]">
+          <div className="pt-10 md:pt-5 pl-0 md:pl-10 w-full md:w-[30%]">
             <h2 className="text-6xl font-black"> TECHItOut</h2>
             <p className=" py-10">
               A <b>fullstack</b> web app. Created using <b>React</b> and{" "}
@@ -149,11 +149,11 @@ const WebProjects = () => {
         <div className="scale__container--js">
           <h2 className="scale--js font-black">UPLOADING CLIPS SITE</h2>
         </div>
-        <div className="w-full px-40 py-20 flex">
-          <div className="w-[70%]">
+        <div className="w-full px-5 md:px-40 py-5 md:py-20 flex flex-col md:flex-row items-center md:items-start">
+          <div className="w-full md:w-[70%]">
             <img src={clips} alt="" />
           </div>
-          <div className="pl-10 w-[30%]">
+          <div className="pt-10 md:pt-5 pl-0 md:pl-10 w-full md:w-[30%]">
             <h2 className="text-6xl font-black"> CLIPZ</h2>
             <p className=" py-10">
               <b>Fullstack</b> web app created using <b>AngularJS</b>. This site
@@ -184,11 +184,11 @@ const WebProjects = () => {
             </div>
           </div>
         </div>
-        <section>
-          <h2 className="text-[13rem] font-black leading-[11rem] text-black">
+        <section className="pt-10 md:pt-0">
+          <h2 className="text-7xl md:text-[13rem] font-black leading-20 md:leading-[11rem] p-1 md:p-0 text-black">
             SMALL PROYECTS - BIGGER IDEAS
           </h2>
-          <ul className="grid grid-cols-3 py-40 px-14">
+          <ul className="flex flex-col md:grid md:grid-cols-3 py-20 md:py-40 px-1 md:px-14">
             {smallIdeas.map((entry) => {
               return (
                 <li key={entry.img}>
