@@ -1,0 +1,61 @@
+#Home {
+  overflow: hidden;
+}
+
+.containerMain {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.bannerMarco {
+  background-color: black;
+
+  clip-path: polygon(4% 8%, 97% 8%, 93% 89%, 1% 95%);
+}
+
+.banner {
+  display: flex;
+  justify-content: center;
+  height: 100%;
+  align-items: center;
+}
+
+.imageColumn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40%;
+}
+
+.nameColumn {
+  display: unset;
+}
+
+.imageMobile {
+  width: 60%;
+  display: none;
+}
+
+@media only screen and (max-width: 600px) {
+  .bannerMarco {
+    clip-path: polygon(2% 0, 94% 2%, 97% 99%, 5% 93%);
+  }
+  .imageColumn {
+    display: none;
+  }
+  .banner {
+    align-items: flex-start;
+  }
+  .nameColumn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .imageMobile {
+    display: block;
+  }
+}

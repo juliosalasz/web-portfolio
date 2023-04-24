@@ -91,7 +91,7 @@ const WebProjects = () => {
 
   window.addEventListener("resize", myScaleFunction);
   return (
-    <Fragment>
+    <div class="projects">
       <section className="w-full py-5 md:py-20 bg-black mx-auto px-0 md:px-5 relative">
         <div className="my-0 py-[8rem] w-[80%] mx-auto">
           <h2 className="text-white text-[13rem] font-black leading-[11rem]">
@@ -220,7 +220,7 @@ const WebProjects = () => {
           </ul>
         </section>
       </section>
-    </Fragment>
+    </div>
   );
 };
 
