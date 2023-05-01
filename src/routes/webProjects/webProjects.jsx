@@ -1,5 +1,4 @@
 import { Icon } from "@iconify/react";
-import { Fragment } from "react";
 
 import techItOut from "../../assets/techitout.jpg";
 import clips from "../../assets/clips.jpg";

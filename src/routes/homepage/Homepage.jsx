@@ -1,6 +1,4 @@
-import shapeImage from "../../assets/color-shapes.svg";
 import face from "../../assets/face.png";
-import facesm from "../../assets/facesm.png";
 import GitHubIcon from "../../assets/githubIcon.png";
 
 import "./homepage.css";
@@ -27,7 +25,7 @@ const Homepage = () => {
                 </h2>
                 <div className="md:pl-4 lg:pl-0">
                   <a
-                    href="https://github.com/juliosalasz/web-portfolio"
+                    href="https://github.com/juliosalasz/"
                     className="flex md:block justify-center md:justify-start"
                   >
                     <button className="mt-5 py-3 px-6 w-[200px] flex items-center justify-center rounded-none ">
