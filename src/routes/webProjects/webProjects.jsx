@@ -2,6 +2,7 @@ import { Icon } from "@iconify/react";
 
 import techItOut from "../../assets/techitout.jpg";
 import pkmnGif from "../../assets/pk.gif";
+import pkj from "../../assets/pkj.jpg";
 import clips from "../../assets/clips.jpg";
 
 import "./webProjects.css";
@@ -111,7 +112,7 @@ const WebProjects = () => {
         </div>
         <div className="w-full px-5 md:px-40 py-5 md:py-20 flex flex-col md:flex-row items-center md:items-start">
           <div className="w-full md:w-[70%]">
-            <img src={pkmnGif} alt="" />
+            <img src={pkj} alt="pokemon battle" />
           </div>
           <div className="pt-10 md:pt-5 pl-0 md:pl-10 w-full md:w-[30%]">
             <h2 className="text-6xl font-black"> BATTLE FOR THE BEST PKMN</h2>
