@@ -17,10 +17,10 @@ const Homepage = () => {
                 <div className="imageMobile">
                   <img src={face} alt="Drawing" />
                 </div>
-                <h1 className="py-2 md:pl-4 lg:pl-0 text-5xl md:text-8xl lg:text-[8rem] xl:text-[10rem] font-bold text-center md:text-left ">
+                <h1 className="py-2 md:pl-4 lg:pl-0 text-5xl md:text-8xl lg:text-[8rem] xl:text-[8rem] font-bold text-center md:text-left ">
                   JULIO SALAS
                 </h1>
-                <h2 className="p-5 md:pt-0 md:pl-4 md:pr-0 md:pb-0 lg:pl-0 text-3xl md:text-5xl xl:text-[8rem] font-bold text-left">
+                <h2 className="p-5 md:pt-0 md:pl-4 md:pr-0 md:pb-0 lg:pl-0 text-3xl md:text-5xl xl:text-[4rem] font-bold text-left">
                   WEB DEVELOPER <br />& DESIGNER
                 </h2>
                 <div className="md:pl-4 lg:pl-0">
