@@ -1,6 +1,7 @@
 import { Icon } from "@iconify/react";
 
 import techItOut from "../../assets/techitout.jpg";
+import pkmnGif from "../../assets/pk.gif";
 import clips from "../../assets/clips.jpg";
 
 import "./webProjects.css";
@@ -102,6 +103,44 @@ const WebProjects = () => {
         </div>
         <div className="flex justify-end ">
           <Icon className="text-white text-9xl" icon="la:angle-down" />
+        </div>
+      </section>
+      <section className="bg-[#02ffea] py-40">
+        <div className="scale__container--js">
+          <h2 className="scale--js font-black">VIDEOGAME</h2>
+        </div>
+        <div className="w-full px-5 md:px-40 py-5 md:py-20 flex flex-col md:flex-row items-center md:items-start">
+          <div className="w-full md:w-[70%]">
+            <img src={pkmnGif} alt="" />
+          </div>
+          <div className="pt-10 md:pt-5 pl-0 md:pl-10 w-full md:w-[30%]">
+            <h2 className="text-6xl font-black"> BATTLE FOR THE BEST PKMN</h2>
+            <p className=" py-10">
+              Videogame created in <b>NEXTJS 13</b>. Challenge and debate your
+              friends into choosing which Pokémon is better. Great game for
+              enjoying time with friends or siblings and get to know each other.
+            </p>
+            <div className="inline-flex">
+              <a
+                href="https://pkmn-battle-two.vercel.app/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <button className="bg-black hover:bg-white text-white hover:text-black font-bold py-4 px-8 rounded-none border-r-2 border-[#02ffea]">
+                  See it live
+                </button>
+              </a>
+              <a
+                href="https://github.com/juliosalasz/PKMNBattle"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <button className="bg-black hover:bg-white text-white hover:text-black font-bold py-4 px-8 rounded-none">
+                  Github
+                </button>
+              </a>
+            </div>
+          </div>
         </div>
       </section>
       <section className="bg-[#02ffea] py-40">

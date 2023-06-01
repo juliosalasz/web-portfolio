@@ -11,16 +11,16 @@ const Homepage = () => {
           <div className="bannerMarco w-[95%] h-[85%] md:h-[80%] lg:w-[80%] lg:h-[80%] mt-20 md:mt-0">
             <div className="banner p-4 sm:p-8 md:p-14">
               <div className="nameColumn pt-10 pb-16 h-full md:pt-10 md:pb-0 lg:pl-6 lg:pt-6 xl:pt-20 w-[100%] md:w-[60%]">
-                <p className="pl-0 md:pl-1 text-sm lg:text-2xl font-light text-center md:text-left w-full">
+                <p className="pl-0 md:pl-1 text-sm lg:text-2xl xl:text-4xl font-light text-center md:text-left w-full">
                   HTML & CSS | JAVASCRIPT | REACT | PYTHON | JAVA | SQL
                 </p>
                 <div className="imageMobile">
                   <img src={face} alt="Drawing" />
                 </div>
-                <h1 className="py-2 md:pl-4 lg:pl-0 text-5xl md:text-8xl font-bold text-center md:text-left ">
+                <h1 className="py-2 md:pl-4 lg:pl-0 text-5xl md:text-8xl lg:text-[8rem] xl:text-[10rem] font-bold text-center md:text-left ">
                   JULIO SALAS
                 </h1>
-                <h2 className="p-5 md:pt-0 md:pl-4 md:pr-0 md:pb-0 lg:pl-0 text-3xl md:text-5xl font-bold text-left">
+                <h2 className="p-5 md:pt-0 md:pl-4 md:pr-0 md:pb-0 lg:pl-0 text-3xl md:text-5xl xl:text-[8rem] font-bold text-left">
                   WEB DEVELOPER <br />& DESIGNER
                 </h2>
                 <div className="md:pl-4 lg:pl-0">
