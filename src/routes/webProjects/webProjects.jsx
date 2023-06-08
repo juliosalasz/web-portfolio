@@ -1,7 +1,6 @@
 import { Icon } from "@iconify/react";
 
 import techItOut from "../../assets/techitout.jpg";
-import pkmnGif from "../../assets/pk.gif";
 import pkj from "../../assets/pkj.jpg";
 import clips from "../../assets/clips.jpg";
 
