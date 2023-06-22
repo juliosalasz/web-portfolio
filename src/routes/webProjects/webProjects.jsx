@@ -94,7 +94,7 @@ const WebProjects = () => {
     <div class="projects">
       <section className="w-full py-5 md:py-20 bg-black mx-auto px-0 md:px-5 relative">
         <div className="flex flex-col my-0 pt-[8rem] pb-[4rem] md:py-[8rem] w-[80%] mx-auto">
-          <h2 className="text-white text-5xl md:text-[13rem] font-black leading-8 md:leading-[11rem]">
+          <h2 className="text-white text-[6rem] md:text-[13rem] font-black leading-[5rem] md:leading-[11rem]">
             BIG <span className="text-[#02ffc0]">IDEAS</span>
           </h2>
           <h2 className="text-white text-4xl md:text-[8rem] lg:text-[10rem] leading-10 md:leading-[7rem] lg:leading-[10rem] xl:leading-[12rem]  font-black">
@@ -105,7 +105,7 @@ const WebProjects = () => {
           <Icon className="text-white text-9xl" icon="la:angle-down" />
         </div>
       </section>
-      <section className="bg-[#02ffea] py-40">
+      <section className="bg-[#02ffea] py-10 lg:py-40">
         <div className="scale__container--js">
           <h2 className="scale--js font-black">VIDEOGAME</h2>
         </div>
@@ -143,7 +143,7 @@ const WebProjects = () => {
           </div>
         </div>
       </section>
-      <section className="bg-[#02ffea] py-40">
+      <section className="bg-[#02ffea] py-10 lg:py-40">
         <div className="scale__container--js">
           <h2 className="scale--js font-black">ECOMMERCE SITE</h2>
         </div>
@@ -183,7 +183,7 @@ const WebProjects = () => {
           </div>
         </div>
       </section>
-      <section className="bg-[#02ffea] pb-20">
+      <section className="bg-[#02ffea] py-10 lg:py-40">
         <div className="scale__container--js">
           <h2 className="scale--js font-black">UPLOADING CLIPS SITE</h2>
         </div>

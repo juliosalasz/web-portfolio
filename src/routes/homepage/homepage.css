@@ -2,6 +2,22 @@
   overflow: hidden;
 }
 
+.homeContainer {
+  width: 100%;
+  height: 100vh;
+  background: rgb(0, 1, 103);
+  background: linear-gradient(
+    0deg,
+    rgba(0, 1, 103, 1) 0%,
+    rgba(0, 51, 154, 1) 100%
+  );
+  display: flex;
+  flex-direction: column;
+  color: white;
+  padding: 0 0.25rem;
+  justify-content: space-evenly;
+}
+
 .containerMain {
   width: 100%;
   height: 100%;
@@ -12,8 +28,10 @@
 
 .bannerMarco {
   background-color: black;
-
   clip-path: polygon(4% 8%, 97% 8%, 93% 89%, 1% 95%);
+  width: 95%;
+  height: 85%;
+  margin-top: 5rem;
 }
 
 .banner {
@@ -21,6 +39,20 @@
   justify-content: center;
   height: 100%;
   align-items: center;
+  padding: 3.3rem 2rem;
+}
+
+.nameColumn {
+  display: unset;
+  height: 100%;
+  width: 100%;
+}
+
+.nameColumn h2 {
+  padding: 0;
+  text-align: center;
+  font-size: 1.5rem;
+  line-height: 1.6rem;
 }
 
 .imageColumn {
@@ -30,13 +62,21 @@
   width: 40%;
 }
 
-.nameColumn {
-  display: unset;
+.imageMobile {
+  display: none;
 }
 
-.imageMobile {
-  width: 60%;
-  display: none;
+.button-github {
+  width: 95%;
+  margin: 0;
+  padding: 0.75rem 1.5rem;
+}
+
+@media (min-width: 425px) {
+  .nameColumn h2 {
+    font-size: 2rem;
+    line-height: 2.1rem;
+  }
 }
 
 @media only screen and (max-width: 600px) {
@@ -53,9 +93,130 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-evenly;
   }
   .imageMobile {
     display: block;
+  }
+}
+
+@media (min-width: 768px) {
+  .homeContainer {
+    padding: 0;
+  }
+  .banner {
+    padding: 4rem;
+  }
+  .bannerMarco {
+    margin-top: 0;
+  }
+  .imageColumn {
+    width: 100%;
+  }
+  .nameColumn {
+    gap: 10px;
+    height: unset;
+    display: flex;
+    flex-direction: column;
+  }
+  .nameColumn p {
+    font-size: 1.2rem;
+    text-align: center;
+  }
+  .nameColumn h1 {
+    font-size: 4rem;
+    text-align: center;
+  }
+
+  .banner {
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    align-items: center;
+    padding: 3.3rem 3rem;
+  }
+  .button-github-container {
+    padding-top: 10px;
+  }
+  .button-github {
+    width: 100%;
+  }
+}
+
+@media (min-width: 1024px) {
+  .banner {
+    padding: 4rem;
+  }
+  .nameColumn p {
+    text-align: left;
+  }
+  .nameColumn h1 {
+    font-size: 6rem;
+    text-align: left;
+  }
+  .nameColumn h2 {
+    text-align: left;
+  }
+  .button-github {
+    width: 80%;
+  }
+}
+
+@media (min-width: 1440px) {
+  .homeContainer {
+    padding: 4rem;
+  }
+  .banner {
+    padding: 7rem;
+  }
+  .bannerMarco {
+    height: 100%;
+  }
+  .imageColumn {
+    width: 80%;
+  }
+  .nameColumn h1 {
+    font-size: 9rem;
+    line-height: 8rem;
+    text-align: left;
+  }
+  .nameColumn h2 {
+    font-size: 3rem;
+    line-height: 3rem;
+  }
+  .nameColumn p {
+    font-size: 2rem;
+  }
+  .button-github {
+    width: 60%;
+    padding: 2rem;
+  }
+}
+
+@media (min-width: 2560px) {
+  .banner {
+    padding: 9rem;
+  }
+  .nameColumn p {
+    font-size: 2.5rem;
+  }
+  .nameColumn h1 {
+    font-size: 21rem;
+    line-height: 18rem;
+  }
+  .nameColumn h2 {
+    font-size: 6rem;
+    line-height: 6rem;
+  }
+
+  .button-github {
+    padding: 4rem;
+  }
+  .button-github p {
+    font-size: 3rem;
+    font-weight: 700;
+  }
+  .button-github img {
+    width: 50px;
   }
 }
