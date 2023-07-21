@@ -8,6 +8,24 @@ import "./webProjects.css";
 
 const smallIdeas = [
   {
+    title: "AnaTime",
+    secondTitle: "Keep track of your products shelf life",
+    description:
+      "An App to calculate your products shelf life. Just choose your type of product and the storage temperature to get your results. Made using Bootstrap and javascript. Real calulations still pending.",
+    img: "https://i.ibb.co/bH6p8JS/anatime.gif",
+    url: "https://cute-dusk-eb7052.netlify.app/",
+    githubUrl: "https://github.com/juliosalasz/clientHtml",
+  },
+  {
+    title: "Rent Cafe",
+    secondTitle: "Find your best rent",
+    description:
+      "Rentcafe.com front site. Recreated using bootstrap and Jquery. Fully responive and uses a tabs and slider component for mobile display.",
+    img: "https://i.ibb.co/Dr7XHpX/netcafe.gif",
+    url: "https://scintillating-pasca-3481d6.netlify.app/",
+    githubUrl: "https://github.com/juliosalasz/netCafe-html",
+  },
+  {
     title: "Just Do it",
     secondTitle: "To do App with Login",
     description:
