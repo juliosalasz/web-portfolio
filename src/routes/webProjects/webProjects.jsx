@@ -8,7 +8,7 @@ import "./webProjects.css";
 
 const smallIdeas = [
   {
-    title: "Chancellor ",
+    title: "Chancellor",
     secondTitle: "Real State appartment frontsite",
     description:
       "An App to calculate your products shelf life. Just choose your type of product and the storage temperature to get your results. Made using Bootstrap and javascript. Real calulations still pending.",
