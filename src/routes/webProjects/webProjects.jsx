@@ -57,7 +57,7 @@ const smallIdeas = [
     secondTitle: "Coffee Landing page",
     description:
       "Small proyect done over the weekend. Made by using bootstrap.",
-    img: "https://i.ibb.co/nzwmtVG/gorilla.gif",
+    img: "https://i.ibb.co/98LK9r6/gorila.jpg",
     url: "https://ornate-kleicha-a93961.netlify.app/",
   },
   {
